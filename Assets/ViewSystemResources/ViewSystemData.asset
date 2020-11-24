@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ce455f0829d84882be7046fe9359add, type: 3}
+  m_Name: ViewSystemData
+  m_EditorClassIdentifier: 
+  globalSetting:
+    UseNavigationSetting: 0
+    ViewControllerObjectPath: UI
+    UIRoot: {fileID: 4508226712490513319, guid: d9600ec33050f4703b8b87bddcd391cf,
+      type: 3}
+    UIRootScene: {fileID: 0}
+    EventHandleBehaviour: []
+    _maxWaitingTime: 1.5
+    minimumTimeInterval: 0.2
+  viewStates:
+  - nodePosition: {x: 247, y: 106}
+    viewState:
+      name: Welcome
+      viewPageItems: []
+      targetFrameRate: -1
+  - nodePosition: {x: 460, y: 106}
+    viewState:
+      name: Play
+      viewPageItems: []
+      targetFrameRate: -1
+  viewPages:
+  - nodePosition: {x: 248, y: 215}
+    viewPage:
+      name: Welcome
+      viewPageItems:
+      - Id: 99a6bd84
+        previewViewElement: {fileID: 0}
+        name: 
+        viewElementObject: {fileID: 4237066466244448314, guid: 32b42a666844a4e059cdf6e0b0c16ac0,
+          type: 3}
+        runtimeViewElement: {fileID: 0}
+        overrideDatas:
+        - targetTransformPath: Text
+          targetComponentType: UnityEngine.UI.Text
+          targetPropertyName: m_Text
+          Value:
+            s_Type: 5
+            ObjectReferenceValue: {fileID: 0}
+            StringValue: Play
+        eventDatas: []
+        parent: {fileID: 0}
+        runtimeParent: {fileID: 0}
+        parentPath: Canvas/Page_Welcome/Loc_Start
+        TweenTime: 0.4
+        easeType: 6
+        delayIn: 0
+        delayOut: 0
+        navigationDatas: []
+        excludePlatform: 0
+      customPageTransitionWaitTime: 0.5
+      viewState: Welcome
+      viewPageType: 0
+      viewPageTransitionTimingType: 0
+      IsNavigation: 0
+      _firstSelectSetting:
+        targetTransformPath: 
+        targetComponentType: 
+        targetPropertyName: 
+        viewPageItemId: 
+      navigationDatasForViewState: []
+  - nodePosition: {x: 458.7857, y: 216}
+    viewPage:
+      name: Play
+      viewPageItems:
+      - Id: 2cb3b8a3
+        previewViewElement: {fileID: 0}
+        name: 
+        viewElementObject: {fileID: 4237066466244448314, guid: 32b42a666844a4e059cdf6e0b0c16ac0,
+          type: 3}
+        runtimeViewElement: {fileID: 0}
+        overrideDatas:
+        - targetTransformPath: 
+          targetComponentType: UnityEngine.RectTransform
+          targetPropertyName: m_SizeDelta
+          Value:
+            s_Type: 8
+            ObjectReferenceValue: {fileID: 0}
+            StringValue: (50.000, 30.000)
+        - targetTransformPath: Text
+          targetComponentType: UnityEngine.UI.Text
+          targetPropertyName: m_Text
+          Value:
+            s_Type: 5
+            ObjectReferenceValue: {fileID: 0}
+            StringValue: Pause
+        eventDatas: []
+        parent: {fileID: 0}
+        runtimeParent: {fileID: 0}
+        parentPath: Canvas/Page_Play/Loc_Pause
+        TweenTime: 0.4
+        easeType: 6
+        delayIn: 0
+        delayOut: 0
+        navigationDatas: []
+        excludePlatform: 0
+      customPageTransitionWaitTime: 0.5
+      viewState: Play
+      viewPageType: 0
+      viewPageTransitionTimingType: 0
+      IsNavigation: 0
+      _firstSelectSetting:
+        targetTransformPath: 
+        targetComponentType: 
+        targetPropertyName: 
+        viewPageItemId: 
+      navigationDatasForViewState: []
+  - nodePosition: {x: 652.9286, y: 213.42853}
+    viewPage:
+      name: Pause
+      viewPageItems:
+      - Id: 5a012abd
+        previewViewElement: {fileID: 0}
+        name: 
+        viewElementObject: {fileID: 4237066466244448314, guid: 32b42a666844a4e059cdf6e0b0c16ac0,
+          type: 3}
+        runtimeViewElement: {fileID: 0}
+        overrideDatas:
+        - targetTransformPath: Text
+          targetComponentType: UnityEngine.UI.Text
+          targetPropertyName: m_Text
+          Value:
+            s_Type: 5
+            ObjectReferenceValue: {fileID: 0}
+            StringValue: Resume
+        eventDatas: []
+        parent: {fileID: 0}
+        runtimeParent: {fileID: 0}
+        parentPath: Canvas/Page_Play/Loc_Resume
+        TweenTime: 0.4
+        easeType: 6
+        delayIn: 0
+        delayOut: 0
+        navigationDatas: []
+        excludePlatform: 0
+      customPageTransitionWaitTime: 0.5
+      viewState: Play
+      viewPageType: 0
+      viewPageTransitionTimingType: 0
+      IsNavigation: 0
+      _firstSelectSetting:
+        targetTransformPath: 
+        targetComponentType: 
+        targetPropertyName: 
+        viewPageItemId: 
+      navigationDatasForViewState: []
