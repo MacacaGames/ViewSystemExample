@@ -13,8 +13,48 @@ MonoBehaviour:
   m_Name: ViewState_FeatureDemo
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 48, y: 496}
+    nodePosition: {x: 32, y: 480}
     viewState:
       name: FeatureDemo
-      viewPageItems: []
+      viewPageItems:
+      - Id: 59cf0ec2
+        previewViewElement: {fileID: 0}
+        name: PageDropdown
+        viewElementObject: {fileID: 6830275487513608395, guid: df5c00b0e1a04409992d284e2513a576,
+          type: 3}
+        runtimeViewElement: {fileID: 0}
+        overrideDatas: []
+        eventDatas: []
+        runtimeParent: {fileID: 0}
+        parent: {fileID: 0}
+        parentPath: 
+        transformData:
+          localScale: {x: 1, y: 1, z: 1}
+          localEulerAngles: {x: 0, y: 0, z: 0}
+          anchoredPosition: {x: 0, y: 0, z: 0}
+          pivot: {x: 0.5, y: 0.5}
+          sizeDelta: {x: 100, y: 100}
+          anchorMin: {x: 0.5, y: 0.5}
+          anchorMax: {x: 0.5, y: 0.5}
+        transformFlag: -1
+        defaultTransformDatas:
+          parent: {fileID: 0}
+          parentPath: 
+          rectTransformData:
+            localScale: {x: 1, y: 1, z: 1}
+            localEulerAngles: {x: 0, y: 0, z: 0}
+            anchoredPosition: {x: 220, y: -90, z: 0}
+            pivot: {x: 0.5, y: 0.5}
+            sizeDelta: {x: 320, y: 60}
+            anchorMin: {x: 0, y: 1}
+            anchorMax: {x: 0, y: 1}
+          rectTransformFlag: -1
+        breakPointViewElementTransforms: []
+        TweenTime: 0.4
+        easeType: 6
+        delayIn: 0
+        delayOut: 0
+        navigationDatas: []
+        excludePlatform: 0
+        sortingOrder: 0
       targetFrameRate: -1
