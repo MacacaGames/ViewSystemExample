@@ -1,6 +1,0 @@
-[submodule "Assets/MacacaViewSystem"]
-	path = Assets/MacacaViewSystem
-	url = https://github.com/MacacaGames/MacacaViewSystem.git
-[submodule "Assets/MacacaUtility"]
-	path = Assets/MacacaUtility
-	url = https://github.com/MacacaGames/MacacaUtility.git

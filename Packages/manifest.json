@@ -1,11 +1,20 @@
 {
   "dependencies": {
-    "com.unity.collab-proxy": "1.2.16",
-    "com.unity.ide.rider": "1.1.4",
-    "com.unity.ide.vscode": "1.2.3",
-    "com.unity.test-framework": "1.1.18",
-    "com.unity.textmeshpro": "2.1.1",
-    "com.unity.timeline": "1.2.17",
+    "com.macacagames.adfactory": "1.0.1",
+    "com.macacagames.commonshader": "https://github.com/MacacaGames/MacacaCommonShader.git",
+    "com.macacagames.gamesystem": "1.1.5",
+    "com.macacagames.macacaapi": "1.2.3",
+    "com.macacagames.unitylitjson": "0.7.2",
+    "com.macacagames.viewsystem": "https://github.com/MacacaGames/MacacaViewSystem.git",
+    "com.unity.2d.sprite": "1.0.0",
+    "com.unity.collab-proxy": "2.4.4",
+    "com.unity.ide.rider": "3.0.31",
+    "com.unity.ide.visualstudio": "2.0.22",
+    "com.unity.ide.vscode": "1.2.5",
+    "com.unity.render-pipelines.universal": "14.0.11",
+    "com.unity.test-framework": "1.1.33",
+    "com.unity.textmeshpro": "3.0.6",
+    "com.unity.timeline": "1.7.6",
     "com.unity.ugui": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
@@ -38,5 +47,24 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.coffee.ui-particle",
+        "com.macacagames.adfactory",
+        "com.macacagames.docgenerator",
+        "com.macacagames.gamesystem",
+        "com.macacagames.oniondataeditor",
+        "com.macacagames.unitylitjson",
+        "com.macacagames.utility",
+        "com.macacagames.viewsystem",
+        "com.macacagames.macacaapi",
+        "com.neuecc.unirx",
+        "com.openupm"
+      ]
+    }
+  ]
 }

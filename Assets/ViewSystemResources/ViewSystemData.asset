@@ -15,145 +15,49 @@ MonoBehaviour:
   globalSetting:
     UseNavigationSetting: 0
     ViewControllerObjectPath: UI
-    UIRoot: {fileID: 4508226712490513319, guid: d9600ec33050f4703b8b87bddcd391cf,
+    UIPageTransformLayerName: Default
+    UIRoot: {fileID: 3604329878090326553, guid: b9fbb182f4f844cd699233ab7f27d2a6,
       type: 3}
     UIRootScene: {fileID: 0}
-    EventHandleBehaviour: []
+    edgeValues:
+      left: 0
+      bottom: 0
+      top: 0
+      right: 0
+      influence: 1
+      influenceLeft: 1
+      influenceBottom: 1
+      influenceTop: 1
+      influenceRight: 1
+    flipPadding: 0
     _maxWaitingTime: 1.5
     minimumTimeInterval: 0.2
-  viewStates:
-  - nodePosition: {x: 247, y: 106}
-    viewState:
-      name: Welcome
-      viewPageItems: []
-      targetFrameRate: -1
-  - nodePosition: {x: 460, y: 106}
-    viewState:
-      name: Play
-      viewPageItems: []
-      targetFrameRate: -1
-  viewPages:
-  - nodePosition: {x: 248, y: 215}
-    viewPage:
-      name: Welcome
-      viewPageItems:
-      - Id: 99a6bd84
-        previewViewElement: {fileID: 0}
-        name: 
-        viewElementObject: {fileID: 4237066466244448314, guid: 32b42a666844a4e059cdf6e0b0c16ac0,
-          type: 3}
-        runtimeViewElement: {fileID: 0}
-        overrideDatas:
-        - targetTransformPath: Text
-          targetComponentType: UnityEngine.UI.Text
-          targetPropertyName: m_Text
-          Value:
-            s_Type: 5
-            ObjectReferenceValue: {fileID: 0}
-            StringValue: Play
-        eventDatas: []
-        parent: {fileID: 0}
-        runtimeParent: {fileID: 0}
-        parentPath: Canvas/Page_Welcome/Loc_Start
-        TweenTime: 0.4
-        easeType: 6
-        delayIn: 0
-        delayOut: 0
-        navigationDatas: []
-        excludePlatform: 0
-      customPageTransitionWaitTime: 0.5
-      viewState: Welcome
-      viewPageType: 0
-      viewPageTransitionTimingType: 0
-      IsNavigation: 0
-      _firstSelectSetting:
-        targetTransformPath: 
-        targetComponentType: 
-        targetPropertyName: 
-        viewPageItemId: 
-      navigationDatasForViewState: []
-  - nodePosition: {x: 458.7857, y: 216}
-    viewPage:
-      name: Play
-      viewPageItems:
-      - Id: 2cb3b8a3
-        previewViewElement: {fileID: 0}
-        name: 
-        viewElementObject: {fileID: 4237066466244448314, guid: 32b42a666844a4e059cdf6e0b0c16ac0,
-          type: 3}
-        runtimeViewElement: {fileID: 0}
-        overrideDatas:
-        - targetTransformPath: 
-          targetComponentType: UnityEngine.RectTransform
-          targetPropertyName: m_SizeDelta
-          Value:
-            s_Type: 8
-            ObjectReferenceValue: {fileID: 0}
-            StringValue: (50.000, 30.000)
-        - targetTransformPath: Text
-          targetComponentType: UnityEngine.UI.Text
-          targetPropertyName: m_Text
-          Value:
-            s_Type: 5
-            ObjectReferenceValue: {fileID: 0}
-            StringValue: Pause
-        eventDatas: []
-        parent: {fileID: 0}
-        runtimeParent: {fileID: 0}
-        parentPath: Canvas/Page_Play/Loc_Pause
-        TweenTime: 0.4
-        easeType: 6
-        delayIn: 0
-        delayOut: 0
-        navigationDatas: []
-        excludePlatform: 0
-      customPageTransitionWaitTime: 0.5
-      viewState: Play
-      viewPageType: 0
-      viewPageTransitionTimingType: 0
-      IsNavigation: 0
-      _firstSelectSetting:
-        targetTransformPath: 
-        targetComponentType: 
-        targetPropertyName: 
-        viewPageItemId: 
-      navigationDatasForViewState: []
-  - nodePosition: {x: 652.9286, y: 213.42853}
-    viewPage:
-      name: Pause
-      viewPageItems:
-      - Id: 5a012abd
-        previewViewElement: {fileID: 0}
-        name: 
-        viewElementObject: {fileID: 4237066466244448314, guid: 32b42a666844a4e059cdf6e0b0c16ac0,
-          type: 3}
-        runtimeViewElement: {fileID: 0}
-        overrideDatas:
-        - targetTransformPath: Text
-          targetComponentType: UnityEngine.UI.Text
-          targetPropertyName: m_Text
-          Value:
-            s_Type: 5
-            ObjectReferenceValue: {fileID: 0}
-            StringValue: Resume
-        eventDatas: []
-        parent: {fileID: 0}
-        runtimeParent: {fileID: 0}
-        parentPath: Canvas/Page_Play/Loc_Resume
-        TweenTime: 0.4
-        easeType: 6
-        delayIn: 0
-        delayOut: 0
-        navigationDatas: []
-        excludePlatform: 0
-      customPageTransitionWaitTime: 0.5
-      viewState: Play
-      viewPageType: 0
-      viewPageTransitionTimingType: 0
-      IsNavigation: 0
-      _firstSelectSetting:
-        targetTransformPath: 
-        targetComponentType: 
-        targetPropertyName: 
-        viewPageItemId: 
-      navigationDatasForViewState: []
+    builtInClickProtection: 1
+    userBreakPoints: []
+  viewStates: []
+  viewPages: []
+  uniqueViewElementTable:
+  - viewElementGameObject: {fileID: 2164306399258560436, guid: 42383333289ad6c45830ca057743e98f,
+      type: 3}
+    type: UI_MessageBox
+  - viewElementGameObject: {fileID: 931797961995137977, guid: 68dddc0a7e4e74465a4bc034561c6e9c,
+      type: 3}
+    type: UI_MessageBubble
+  - viewElementGameObject: {fileID: 3735135370969500442, guid: 925e49f8b78258b4fb524217277ed504,
+      type: 3}
+    type: UI_NavigationBar
+  viewStateNodeSaveDatas:
+  - {fileID: 11400000, guid: 294b6cd807d5a485f8d40e11a8c5dd2d, type: 2}
+  - {fileID: 11400000, guid: fcdd19134f26847bb9ce70f06fb6a75a, type: 2}
+  - {fileID: 11400000, guid: 34f2a0def77d04ca1b2cd4e400421938, type: 2}
+  - {fileID: 11400000, guid: 013b733c8492e4bc3aa6084af134e87a, type: 2}
+  viewPagesNodeSaveDatas:
+  - {fileID: 11400000, guid: 86c4e6f6f4a244f768bc21c049e74cb8, type: 2}
+  - {fileID: 11400000, guid: 46e761f69abe9489d87153fc9f862c99, type: 2}
+  - {fileID: 11400000, guid: 4e98f0e8172694cbda57710990f5ac72, type: 2}
+  - {fileID: 11400000, guid: ff32faaae9bdc414caa6be6b22e1b94b, type: 2}
+  - {fileID: 11400000, guid: b260be79420594a4a9e7f52931827168, type: 2}
+  - {fileID: 11400000, guid: 9ddcfceca88a74732ba5cd62e2060e4c, type: 2}
+  - {fileID: 11400000, guid: b5162566d3cd34a40823bfc363ca64a8, type: 2}
+  - {fileID: 11400000, guid: d2ed617ab074f46228e6a08301f6e797, type: 2}
+  - {fileID: 11400000, guid: c43f149ca67f94a66bf6d6c1172281b0, type: 2}
