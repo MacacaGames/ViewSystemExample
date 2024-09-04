@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ViewState_FeatureDemo
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 32, y: 480}
+    nodePosition: {x: 48, y: 480}
     viewState:
       name: FeatureDemo
       viewPageItems:

@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfc96180cc9464cce899301591c0e0ba, type: 3}
-  m_Name: ViewPage_OverrideProperty
+  m_Name: ViewPage_ViewElementTransition
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 48, y: 560}
+    nodePosition: {x: 240, y: 560}
     viewPage:
-      name: OverrideProperty
+      name: ViewElementTransition
       viewPageItems:
-      - Id: 5a820094
+      - Id: 19a98b11
         previewViewElement: {fileID: 0}
         name: 
-        viewElementObject: {fileID: 2312344306213899656, guid: 4938f3d90ce924dc589fa892ae009e94,
+        viewElementObject: {fileID: 8430999192802251886, guid: 3f7773f389cc342ed95cae5be1c3c37e,
           type: 3}
         runtimeViewElement: {fileID: 0}
         overrideDatas: []
@@ -43,9 +43,9 @@ MonoBehaviour:
           rectTransformData:
             localScale: {x: 1, y: 1, z: 1}
             localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: 0, y: 450, z: 0}
+            anchoredPosition: {x: -250, y: 400, z: 0}
             pivot: {x: 0.5, y: 0.5}
-            sizeDelta: {x: 320, y: 160}
+            sizeDelta: {x: 400, y: 400}
             anchorMin: {x: 0.5, y: 0.5}
             anchorMax: {x: 0.5, y: 0.5}
           rectTransformFlag: -1
@@ -57,40 +57,13 @@ MonoBehaviour:
         navigationDatas: []
         excludePlatform: 0
         sortingOrder: 0
-      - Id: bd89501c
+      - Id: 6ed844f6
         previewViewElement: {fileID: 0}
-        name: Button1
-        viewElementObject: {fileID: 2312344306213899656, guid: 4938f3d90ce924dc589fa892ae009e94,
+        name: 
+        viewElementObject: {fileID: 7975943861558812042, guid: 31b4e08a9fead44c7b1fd9dfb15c0e74,
           type: 3}
         runtimeViewElement: {fileID: 0}
-        overrideDatas:
-        - targetTransformPath: root/Text
-          targetComponentType: TMPro.TextMeshProUGUI
-          targetPropertyName: m_text
-          Value:
-            IsShowRawContent: 0
-            s_Type: 5
-            ObjectReferenceValue: {fileID: 0}
-            StringValue: Override GameObject.IsActive
-            ModelReflectValue: 
-        - targetTransformPath: root/Text
-          targetComponentType: UnityEngine.GameObject
-          targetPropertyName: m_IsActive
-          Value:
-            IsShowRawContent: 0
-            s_Type: 0
-            ObjectReferenceValue: {fileID: 0}
-            StringValue: True
-            ModelReflectValue: 
-        - targetTransformPath: root/Icon
-          targetComponentType: UnityEngine.GameObject
-          targetPropertyName: m_IsActive
-          Value:
-            IsShowRawContent: 0
-            s_Type: 0
-            ObjectReferenceValue: {fileID: 0}
-            StringValue: False
-            ModelReflectValue: 
+        overrideDatas: []
         eventDatas: []
         runtimeParent: {fileID: 0}
         parent: {fileID: 0}
@@ -110,9 +83,9 @@ MonoBehaviour:
           rectTransformData:
             localScale: {x: 1, y: 1, z: 1}
             localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: 0, y: 150, z: 0}
+            anchoredPosition: {x: 250, y: 400, z: 0}
             pivot: {x: 0.5, y: 0.5}
-            sizeDelta: {x: 320, y: 160}
+            sizeDelta: {x: 400, y: 400}
             anchorMin: {x: 0.5, y: 0.5}
             anchorMax: {x: 0.5, y: 0.5}
           rectTransformFlag: -1
@@ -124,40 +97,13 @@ MonoBehaviour:
         navigationDatas: []
         excludePlatform: 0
         sortingOrder: 0
-      - Id: eb29bc58
+      - Id: f0725333
         previewViewElement: {fileID: 0}
-        name: Button2
-        viewElementObject: {fileID: 2312344306213899656, guid: 4938f3d90ce924dc589fa892ae009e94,
+        name: 
+        viewElementObject: {fileID: 8416004906970542288, guid: 8325f8c6467634925b51702ff9d03c74,
           type: 3}
         runtimeViewElement: {fileID: 0}
-        overrideDatas:
-        - targetTransformPath: root/Text
-          targetComponentType: TMPro.TextMeshProUGUI
-          targetPropertyName: m_text
-          Value:
-            IsShowRawContent: 0
-            s_Type: 5
-            ObjectReferenceValue: {fileID: 0}
-            StringValue: Override Color, Size
-            ModelReflectValue: 
-        - targetTransformPath: root/Text
-          targetComponentType: UnityEngine.GameObject
-          targetPropertyName: m_IsActive
-          Value:
-            IsShowRawContent: 0
-            s_Type: 0
-            ObjectReferenceValue: {fileID: 0}
-            StringValue: True
-            ModelReflectValue: 
-        - targetTransformPath: root/BG
-          targetComponentType: UnityEngine.UI.Image
-          targetPropertyName: m_Color
-          Value:
-            IsShowRawContent: 0
-            s_Type: 3
-            ObjectReferenceValue: {fileID: 0}
-            StringValue: 17C55EFF
-            ModelReflectValue: 
+        overrideDatas: []
         eventDatas: []
         runtimeParent: {fileID: 0}
         parent: {fileID: 0}
@@ -177,9 +123,9 @@ MonoBehaviour:
           rectTransformData:
             localScale: {x: 1, y: 1, z: 1}
             localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: 0, y: -150, z: 0}
+            anchoredPosition: {x: -250, y: -400, z: 0}
             pivot: {x: 0.5, y: 0.5}
-            sizeDelta: {x: 150, y: 160}
+            sizeDelta: {x: 400, y: 400}
             anchorMin: {x: 0.5, y: 0.5}
             anchorMax: {x: 0.5, y: 0.5}
           rectTransformFlag: -1
@@ -191,28 +137,14 @@ MonoBehaviour:
         navigationDatas: []
         excludePlatform: 0
         sortingOrder: 0
-      - Id: ecd94253
+      - Id: 830bf163
         previewViewElement: {fileID: 0}
-        name: Button3
-        viewElementObject: {fileID: 2312344306213899656, guid: 4938f3d90ce924dc589fa892ae009e94,
+        name: 
+        viewElementObject: {fileID: 3700880567353110520, guid: 0c07ab098d0d04835aafac672eee7b0a,
           type: 3}
         runtimeViewElement: {fileID: 0}
-        overrideDatas:
-        - targetTransformPath: root/Text
-          targetComponentType: TMPro.TextMeshProUGUI
-          targetPropertyName: m_text
-          Value:
-            IsShowRawContent: 0
-            s_Type: 5
-            ObjectReferenceValue: {fileID: 0}
-            StringValue: Override Event
-            ModelReflectValue: 
-        eventDatas:
-        - targetTransformPath: 
-          targetComponentType: UnityEngine.UI.Button
-          targetPropertyName: m_OnClick
-          scriptName: UIManager
-          methodName: OnOverridePropertyPageBtnPressed
+        overrideDatas: []
+        eventDatas: []
         runtimeParent: {fileID: 0}
         parent: {fileID: 0}
         parentPath: 
@@ -231,9 +163,9 @@ MonoBehaviour:
           rectTransformData:
             localScale: {x: 1, y: 1, z: 1}
             localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: 0, y: -450, z: 0}
+            anchoredPosition: {x: 250, y: -400, z: 0}
             pivot: {x: 0.5, y: 0.5}
-            sizeDelta: {x: 320, y: 160}
+            sizeDelta: {x: 400, y: 400}
             anchorMin: {x: 0.5, y: 0.5}
             anchorMax: {x: 0.5, y: 0.5}
           rectTransformFlag: -1
