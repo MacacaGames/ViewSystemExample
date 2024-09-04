@@ -12,7 +12,7 @@ public class UI_PageDropdown : ViewElementLifeCycle
     [SerializeField]TMP_Dropdown pageDropdown; 
     private void Start()
     {
-        var viewPageNames = ViewController.Instance.currentViewState.viewPageItems.Select(x => x.name).ToArray();
+        var viewPageNames = ViewController.Instance.viewPages.Select(x => x.Key).ToArray();
         SetDropdownOptions(viewPageNames);
         
         //register onValueChanged event
