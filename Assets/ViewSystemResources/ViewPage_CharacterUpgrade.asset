@@ -9,58 +9,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0831a4d40a9254b1e9c5902659896d75, type: 3}
-  m_Name: ViewState_Welcome
+  m_Script: {fileID: 11500000, guid: bfc96180cc9464cce899301591c0e0ba, type: 3}
+  m_Name: ViewPage_CharacterUpgrade
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 48, y: -32}
-    viewState:
-      name: Welcome
+    nodePosition: {x: 512, y: 576}
+    viewPage:
+      name: CharacterUpgrade
       viewPageItems:
-      - Id: 59cf0ec2
-        previewViewElement: {fileID: 0}
-        name: PageDropdown
-        viewElementObject: {fileID: 6830275487513608395, guid: df5c00b0e1a04409992d284e2513a576,
-          type: 3}
-        runtimeViewElement: {fileID: 0}
-        overrideDatas: []
-        eventDatas: []
-        runtimeParent: {fileID: 0}
-        parent: {fileID: 0}
-        parentPath: 
-        transformData:
-          localScale: {x: 1, y: 1, z: 1}
-          localEulerAngles: {x: 0, y: 0, z: 0}
-          anchoredPosition: {x: 0, y: 0, z: 0}
-          pivot: {x: 0.5, y: 0.5}
-          sizeDelta: {x: 100, y: 100}
-          anchorMin: {x: 0.5, y: 0.5}
-          anchorMax: {x: 0.5, y: 0.5}
-        transformFlag: -1
-        defaultTransformDatas:
-          parent: {fileID: 0}
-          parentPath: 
-          rectTransformData:
-            localScale: {x: 1, y: 1, z: 1}
-            localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: 220, y: -90, z: 0}
-            pivot: {x: 0.5, y: 0.5}
-            sizeDelta: {x: 320, y: 60}
-            anchorMin: {x: 0, y: 1}
-            anchorMax: {x: 0, y: 1}
-          rectTransformFlag: -1
-        breakPointViewElementTransforms: []
-        TweenTime: 0.4
-        easeType: 6
-        delayIn: 0
-        delayOut: 0
-        navigationDatas: []
-        excludePlatform: 0
-        sortingOrder: 0
-      - Id: 7cef52a5
+      - Id: eaecc168
         previewViewElement: {fileID: 0}
         name: 
-        viewElementObject: {fileID: 3735135370969500442, guid: 925e49f8b78258b4fb524217277ed504,
+        viewElementObject: {fileID: 2312344306213899656, guid: bab9e11f1a7cf4833a585d5ccccbf684,
           type: 3}
         runtimeViewElement: {fileID: 0}
         overrideDatas: []
@@ -83,11 +43,11 @@ MonoBehaviour:
           rectTransformData:
             localScale: {x: 1, y: 1, z: 1}
             localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: 0, y: 10, z: 0}
-            pivot: {x: 0.5, y: 0}
-            sizeDelta: {x: 0, y: 178}
-            anchorMin: {x: 0, y: 0}
-            anchorMax: {x: 1, y: 0}
+            anchoredPosition: {x: 103.18, y: 0, z: 0}
+            pivot: {x: 0.5, y: 0.5}
+            sizeDelta: {x: 600, y: 1000}
+            anchorMin: {x: 0.5, y: 0.5}
+            anchorMax: {x: 0.5, y: 0.5}
           rectTransformFlag: -1
         breakPointViewElementTransforms: []
         TweenTime: 0.4
@@ -97,4 +57,69 @@ MonoBehaviour:
         navigationDatas: []
         excludePlatform: 0
         sortingOrder: 0
-      targetFrameRate: -1
+      - Id: cf2210d6
+        previewViewElement: {fileID: 0}
+        name: 
+        viewElementObject: {fileID: 8176007675847264036, guid: 6d1901c74b73f4a6a9d9062c1ceaf1c9,
+          type: 3}
+        runtimeViewElement: {fileID: 0}
+        overrideDatas: []
+        eventDatas: []
+        runtimeParent: {fileID: 0}
+        parent: {fileID: 0}
+        parentPath: 
+        transformData:
+          localScale: {x: 1, y: 1, z: 1}
+          localEulerAngles: {x: 0, y: 0, z: 0}
+          anchoredPosition: {x: 0, y: 0, z: 0}
+          pivot: {x: 0.5, y: 0.5}
+          sizeDelta: {x: 100, y: 100}
+          anchorMin: {x: 0.5, y: 0.5}
+          anchorMax: {x: 0.5, y: 0.5}
+        transformFlag: -1
+        defaultTransformDatas:
+          parent: {fileID: 0}
+          parentPath: 
+          rectTransformData:
+            localScale: {x: 1, y: 1, z: 1}
+            localEulerAngles: {x: 0, y: 0, z: 0}
+            anchoredPosition: {x: 0, y: 0, z: 0}
+            pivot: {x: 0.5, y: 0.5}
+            sizeDelta: {x: -20, y: 1500}
+            anchorMin: {x: 0, y: 0.5}
+            anchorMax: {x: 1, y: 0.5}
+          rectTransformFlag: -1
+        breakPointViewElementTransforms: []
+        TweenTime: 0.4
+        easeType: 6
+        delayIn: 0
+        delayOut: 0
+        navigationDatas: []
+        excludePlatform: 0
+        sortingOrder: 0
+      runtimePageRoot: {fileID: 0}
+      customPageTransitionWaitTime: 0.5
+      viewState: UseCaseDemo
+      viewPageType: 0
+      viewPageTransitionTimingType: 0
+      canvasSortOrder: 0
+      ignoreAutoSorting: 0
+      edgeValues:
+        left: 0
+        bottom: 0
+        top: 0
+        right: 0
+        influence: 1
+        influenceLeft: 1
+        influenceBottom: 1
+        influenceTop: 1
+        influenceRight: 1
+      flipPadding: 0
+      useGlobalSafePadding: 1
+      IsNavigation: 0
+      _firstSelectSetting:
+        targetTransformPath: 
+        targetComponentType: 
+        targetPropertyName: 
+        viewPageItemId: 
+      navigationDatasForViewState: []
