@@ -238,7 +238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9188947953425711880}
   m_Layer: 5
-  m_Name: StatItem
+  m_Name: CharacterStatItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

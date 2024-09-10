@@ -311,7 +311,6 @@ GameObject:
   - component: {fileID: 632167077725831130}
   - component: {fileID: 199157144408632067}
   - component: {fileID: 944584514510365374}
-  - component: {fileID: 3345959895930025739}
   m_Layer: 5
   m_Name: CharacterView
   m_TagString: Untagged
@@ -448,36 +447,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   DisableGameObjectOnComplete: 1
---- !u!114 &3345959895930025739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2312344306213899656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f073a009af93045b894a96f8a5604a6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnBeforeLeaveHandler:
-    m_PersistentCalls:
-      m_Calls: []
-  OnBeforeShowHandler:
-    m_PersistentCalls:
-      m_Calls: []
-  OnStartLeaveHandler:
-    m_PersistentCalls:
-      m_Calls: []
-  OnStartShowHandler:
-    m_PersistentCalls:
-      m_Calls: []
-  OnChangedPageHandler:
-    m_PersistentCalls:
-      m_Calls: []
-  OnChangePageHandler:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &2995710235900560886
 GameObject:
   m_ObjectHideFlags: 0

@@ -43,9 +43,6 @@ MonoBehaviour:
   - viewElementGameObject: {fileID: 931797961995137977, guid: 68dddc0a7e4e74465a4bc034561c6e9c,
       type: 3}
     type: UI_MessageBubble
-  - viewElementGameObject: {fileID: 2312344306213899656, guid: bab9e11f1a7cf4833a585d5ccccbf684,
-      type: 3}
-    type: UI_CharacterView
   - viewElementGameObject: {fileID: 3735135370969500442, guid: 925e49f8b78258b4fb524217277ed504,
       type: 3}
     type: UI_NavigationBar
@@ -69,3 +66,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4b37979e14d704948b4c3ef78c44d7b9, type: 2}
   - {fileID: 11400000, guid: 313f9fce87c9546778985655b4ed7598, type: 2}
   - {fileID: 11400000, guid: 557d82ac9c25e4d86b373d21903f9c9a, type: 2}
+  - {fileID: 11400000, guid: 605a5cf3d07ec48e4ae2c1e3b0a4c7d4, type: 2}
+  - {fileID: 11400000, guid: c6c7adafca58e453ca490cae7e548289, type: 2}

@@ -146,46 +146,6 @@ MonoBehaviour:
         navigationDatas: []
         excludePlatform: 0
         sortingOrder: 0
-      - Id: d0c29a3c
-        previewViewElement: {fileID: 0}
-        name: 
-        viewElementObject: {fileID: 4782887798366624486, guid: 870a19eb0a7c17a42b3f7c7a82a0089c,
-          type: 3}
-        runtimeViewElement: {fileID: 0}
-        overrideDatas: []
-        eventDatas: []
-        runtimeParent: {fileID: 0}
-        parent: {fileID: 0}
-        parentPath: 
-        transformData:
-          localScale: {x: 1, y: 1, z: 1}
-          localEulerAngles: {x: 0, y: 0, z: 0}
-          anchoredPosition: {x: 0, y: 0, z: 0}
-          pivot: {x: 0.5, y: 0.5}
-          sizeDelta: {x: 100, y: 100}
-          anchorMin: {x: 0.5, y: 0.5}
-          anchorMax: {x: 0.5, y: 0.5}
-        transformFlag: -1
-        defaultTransformDatas:
-          parent: {fileID: 0}
-          parentPath: 
-          rectTransformData:
-            localScale: {x: 1, y: 1, z: 1}
-            localEulerAngles: {x: -0, y: 0, z: 0}
-            anchoredPosition: {x: 128, y: -104, z: 0}
-            pivot: {x: 0.5, y: 0.5}
-            sizeDelta: {x: 325, y: 100}
-            anchorMin: {x: 0, y: 1}
-            anchorMax: {x: 0, y: 1}
-          rectTransformFlag: -1
-        breakPointViewElementTransforms: []
-        TweenTime: 0.4
-        easeType: 6
-        delayIn: 0
-        delayOut: 0
-        navigationDatas: []
-        excludePlatform: 0
-        sortingOrder: 0
       runtimePageRoot: {fileID: 0}
       customPageTransitionWaitTime: 0.5
       viewState: Welcome

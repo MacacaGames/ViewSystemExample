@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ViewPage_CharacterUpgrade
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 512, y: 576}
+    nodePosition: {x: 512, y: 560}
     viewPage:
       name: CharacterUpgrade
       viewPageItems:
