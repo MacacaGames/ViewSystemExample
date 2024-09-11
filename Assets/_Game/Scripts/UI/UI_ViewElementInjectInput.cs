@@ -9,7 +9,7 @@ using UnityEngine.UI;
 
 public class UI_ViewElementInjectInput : ViewElementBehaviour
 {
-    [SerializeField] TMP_InputField inputField;
+    [SerializeField] TMP_InputField stringInputField,intInputField;
     [SerializeField] Button sendButton;
 
     protected override void Awake()
@@ -20,7 +20,12 @@ public class UI_ViewElementInjectInput : ViewElementBehaviour
     
     void OnSendButtonClicked()
     {
-        var inputText = inputField.text;
-        ViewController.OverlayPageChanger().SetPage("ViewElementInjectOutput").SetPageModel(inputText).Show();
+        var inputText = stringInputField.text;
+        if(int.TryParse(intInputField.text, out var inputInt) == false)
+        {
+            Debug.LogError("Input int is not a number");
+            return;
+        }
+        ViewController.OverlayPageChanger().SetPage(ViewSystemScriptable.ViewPages.ViewElementInjectOutput).SetPageModel(inputText,inputInt).Show();
     }
 }

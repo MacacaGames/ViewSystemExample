@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ViewPage_ViewElementTransition
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 240, y: 560}
+    nodePosition: {x: 240, y: 544}
     viewPage:
       name: ViewElementTransition
       viewPageItems:

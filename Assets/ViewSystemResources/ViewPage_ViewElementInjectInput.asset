@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ViewPage_ViewElementInjectInput
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 704, y: 560}
+    nodePosition: {x: 48, y: 784}
     viewPage:
       name: ViewElementInjectInput
       viewPageItems:
@@ -59,7 +59,7 @@ MonoBehaviour:
         sortingOrder: 0
       runtimePageRoot: {fileID: 0}
       customPageTransitionWaitTime: 0.5
-      viewState: UseCaseDemo
+      viewState: FeatureDemo
       viewPageType: 0
       viewPageTransitionTimingType: 0
       canvasSortOrder: 0

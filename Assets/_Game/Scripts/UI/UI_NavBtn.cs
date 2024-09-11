@@ -6,7 +6,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UI_NavBtn : ViewElementLifeCycle
+public class UI_NavBtn : ViewElementBehaviour
 {
     public int Index;
     public RectTransform rectTransform;

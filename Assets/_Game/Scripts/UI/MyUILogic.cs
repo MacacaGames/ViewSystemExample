@@ -19,12 +19,12 @@ public class MyUILogic : MonoBehaviour,IViewElementLifeCycle{
     [SerializeField]
     TMP_Text logText;
     
-    // [OverrideButtonEvent("Content/CustomEventButton")]
-    // void CustomOverrideFunction(Component component )
-    // {
-    //     var log = "trigger CustomOverrideFunction, this on click event is override via script";
-    //     Debug.Log(log);
-    // }
+    [OverrideButtonEvent("Content/CustomEventButton")]
+    void CustomOverrideFunction(Component component )
+    {
+        var log = "trigger CustomOverrideFunction, this on click event is override via script";
+        Debug.Log(log);
+    }
     
     void Awake()
     {

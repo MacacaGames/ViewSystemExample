@@ -3,10 +3,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UI_ViewElementInjectOutput : ViewElementBehaviour
+public class UI_ViewInjectDictionaryOutput : ViewElementBehaviour
 {
     [ViewElementInject]
-    int injectInt;
+    string stringInject1, stringInject2, stringInject3;
     
     [SerializeField] TMP_Text outputText;
     [SerializeField] Button closeButton;
@@ -18,12 +18,13 @@ public class UI_ViewElementInjectOutput : ViewElementBehaviour
 
     public override void OnBeforeShow()
     {
-        outputText.text =  injectInt.ToString();
+        var output = $"stringInject1: {stringInject1}\nstringInject2: {stringInject2}\nstringInject3: {stringInject3}";
+        outputText.text =  output;
     }
     
     void OnCloseButtonClicked()
     {
-        ViewController.OverlayPageChanger().SetPage(ViewSystemScriptable.ViewPages.ViewElementInjectOutput).Leave();
+        ViewController.OverlayPageChanger().SetPage( ViewSystemScriptable.ViewPages.ViewInjectDictionaryOutput).Leave();
     }
     
     

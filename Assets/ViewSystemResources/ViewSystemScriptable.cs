@@ -5,13 +5,6 @@ namespace MacacaGames.ViewSystem
 	public struct ViewSystemScriptable
 	{
 
-		public struct BreakPoints
-		{
-		    public const string  Horizon = "Horizon";
-
-		    public const string  Vertical = "Vertical";
-
-		}
 		public struct ViewPages
 		{
 		    public const string  Welcome_P1 = "Welcome_P1";
@@ -30,6 +23,24 @@ namespace MacacaGames.ViewSystem
 
 		    public const string  MessageBubble = "MessageBubble";
 
+		    public const string  OverrideProperty = "OverrideProperty";
+
+		    public const string  ViewElementTransition = "ViewElementTransition";
+
+		    public const string  OverridePropertyViaScript = "OverridePropertyViaScript";
+
+		    public const string  CharacterUpgrade = "CharacterUpgrade";
+
+		    public const string  CharacterStory = "CharacterStory";
+
+		    public const string  ViewElementInjectInput = "ViewElementInjectInput";
+
+		    public const string  ViewElementInjectOutput = "ViewElementInjectOutput";
+
+		    public const string  ViewInjectDictionaryInput = "ViewInjectDictionaryInput";
+
+		    public const string  ViewInjectDictionaryOutput = "ViewInjectDictionaryOutput";
+
 		}
 		public struct ViewStates
 		{
@@ -38,6 +49,10 @@ namespace MacacaGames.ViewSystem
 		    public const string  Play = "Play";
 
 		    public const string  Result = "Result";
+
+		    public const string  FeatureDemo = "FeatureDemo";
+
+		    public const string  UseCaseDemo = "UseCaseDemo";
 
 		}
 

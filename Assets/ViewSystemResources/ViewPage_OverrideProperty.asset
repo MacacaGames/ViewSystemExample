@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ViewPage_OverrideProperty
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 48, y: 560}
+    nodePosition: {x: 48, y: 544}
     viewPage:
       name: OverrideProperty
       viewPageItems:
