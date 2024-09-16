@@ -10,57 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfc96180cc9464cce899301591c0e0ba, type: 3}
-  m_Name: ViewPage_CharacterUpgrade
+  m_Name: ViewPage_AddCurrency
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 512, y: 560}
+    nodePosition: {x: 512, y: 784}
     viewPage:
-      name: CharacterUpgrade
+      name: AddCurrency
       viewPageItems:
-      - Id: eaecc168
+      - Id: 45a2fc61
         previewViewElement: {fileID: 0}
         name: 
-        viewElementObject: {fileID: 2312344306213899656, guid: bab9e11f1a7cf4833a585d5ccccbf684,
-          type: 3}
-        runtimeViewElement: {fileID: 0}
-        overrideDatas: []
-        eventDatas: []
-        runtimeParent: {fileID: 0}
-        parent: {fileID: 0}
-        parentPath: 
-        transformData:
-          localScale: {x: 1, y: 1, z: 1}
-          localEulerAngles: {x: 0, y: 0, z: 0}
-          anchoredPosition: {x: 0, y: 0, z: 0}
-          pivot: {x: 0.5, y: 0.5}
-          sizeDelta: {x: 100, y: 100}
-          anchorMin: {x: 0.5, y: 0.5}
-          anchorMax: {x: 0.5, y: 0.5}
-        transformFlag: -1
-        defaultTransformDatas:
-          parent: {fileID: 0}
-          parentPath: 
-          rectTransformData:
-            localScale: {x: 1, y: 1, z: 1}
-            localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: 103.18, y: 0, z: 0}
-            pivot: {x: 0.5, y: 0.5}
-            sizeDelta: {x: 600, y: 1000}
-            anchorMin: {x: 0.5, y: 0.5}
-            anchorMax: {x: 0.5, y: 0.5}
-          rectTransformFlag: -1
-        breakPointViewElementTransforms: []
-        TweenTime: 0.4
-        easeType: 6
-        delayIn: 0
-        delayOut: 0
-        navigationDatas: []
-        excludePlatform: 0
-        sortingOrder: 0
-      - Id: cf2210d6
-        previewViewElement: {fileID: 0}
-        name: 
-        viewElementObject: {fileID: 8176007675847264036, guid: 6d1901c74b73f4a6a9d9062c1ceaf1c9,
+        viewElementObject: {fileID: 460600937566391871, guid: 75ec936d3939447f1af995d7cca6b614,
           type: 3}
         runtimeViewElement: {fileID: 0}
         overrideDatas: []
@@ -85,58 +45,9 @@ MonoBehaviour:
             localEulerAngles: {x: 0, y: 0, z: 0}
             anchoredPosition: {x: 0, y: 0, z: 0}
             pivot: {x: 0.5, y: 0.5}
-            sizeDelta: {x: -20, y: 1500}
-            anchorMin: {x: 0, y: 0.5}
-            anchorMax: {x: 1, y: 0.5}
-          rectTransformFlag: -1
-        breakPointViewElementTransforms: []
-        TweenTime: 0.4
-        easeType: 6
-        delayIn: 0
-        delayOut: 0
-        navigationDatas: []
-        excludePlatform: 0
-        sortingOrder: 0
-      - Id: a6d150d8
-        previewViewElement: {fileID: 0}
-        name: 
-        viewElementObject: {fileID: 2312344306213899656, guid: 300df3449d7754a779fdd68f89a504ac,
-          type: 3}
-        runtimeViewElement: {fileID: 0}
-        overrideDatas:
-        - targetTransformPath: 
-          targetComponentType: UI_ChangePageButton
-          targetPropertyName: pageName
-          Value:
-            IsShowRawContent: 0
-            s_Type: 5
-            ObjectReferenceValue: {fileID: 0}
-            StringValue: CharacterStory
-            ModelReflectValue: 
-        eventDatas: []
-        runtimeParent: {fileID: 0}
-        parent: {fileID: 0}
-        parentPath: 
-        transformData:
-          localScale: {x: 1, y: 1, z: 1}
-          localEulerAngles: {x: 0, y: 0, z: 0}
-          anchoredPosition: {x: 0, y: 0, z: 0}
-          pivot: {x: 0.5, y: 0.5}
-          sizeDelta: {x: 100, y: 100}
-          anchorMin: {x: 0.5, y: 0.5}
-          anchorMax: {x: 0.5, y: 0.5}
-        transformFlag: -1
-        defaultTransformDatas:
-          parent: {fileID: 0}
-          parentPath: 
-          rectTransformData:
-            localScale: {x: 1, y: 1, z: 1}
-            localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: 175, y: 125, z: 0}
-            pivot: {x: 0.5, y: 0.5}
-            sizeDelta: {x: 200, y: 100}
-            anchorMin: {x: 0, y: 0}
-            anchorMax: {x: 0, y: 0}
+            sizeDelta: {x: 400, y: 200}
+            anchorMin: {x: 0.5, y: 0.5}
+            anchorMax: {x: 0.5, y: 0.5}
           rectTransformFlag: -1
         breakPointViewElementTransforms: []
         TweenTime: 0.4
