@@ -9,7 +9,7 @@ public class GameStart : MonoBehaviour
     {
         ViewController
             .FullPageChanger()
-            .SetPage(ViewSystemScriptable.ViewPages.Welcome_P2)
+            .SetPage(ViewSystemScriptable.ViewPages.OverrideProperty)
             .Show();
     }
 }

@@ -123,6 +123,16 @@ PrefabInstance:
       propertyPath: transition
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2603881707936204402, guid: cec38db59a3614178bf2d470280cd563,
+        type: 3}
+      propertyPath: animatorTransitionType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603881707936204402, guid: cec38db59a3614178bf2d470280cd563,
+        type: 3}
+      propertyPath: AnimationStateName_Loop
+      value: gsgeds
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

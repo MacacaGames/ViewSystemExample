@@ -7,7 +7,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UI_PageDropdown : ViewElementLifeCycle
+public class UI_PageDropdown : ViewElementBehaviour
 {
     [SerializeField]TMP_Dropdown pageDropdown; 
     private void Start()

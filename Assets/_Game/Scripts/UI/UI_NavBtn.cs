@@ -24,7 +24,6 @@ public class UI_NavBtn : ViewElementBehaviour
 
     void OnClick()
     {
-    
         UI_NavigationBar navigationBar = ViewController.Instance.GetInjectionInstance<UI_NavigationBar>();
         navigationBar.GoToPage(Index);
      

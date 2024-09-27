@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ViewPage_ViewElementInjectInput
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 48, y: 784}
+    nodePosition: {x: 48, y: 800}
     viewPage:
       name: ViewElementInjectInput
       viewPageItems:

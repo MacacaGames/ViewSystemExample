@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ViewState_FeatureDemo
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 48, y: 464}
+    nodePosition: {x: 48, y: 480}
     viewState:
       name: FeatureDemo
       viewPageItems:
@@ -43,7 +43,7 @@ MonoBehaviour:
           rectTransformData:
             localScale: {x: 1, y: 1, z: 1}
             localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: 220, y: -90, z: 0}
+            anchoredPosition: {x: 220, y: -130, z: 0}
             pivot: {x: 0.5, y: 0.5}
             sizeDelta: {x: 320, y: 60}
             anchorMin: {x: 0, y: 1}

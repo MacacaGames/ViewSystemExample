@@ -33,7 +33,9 @@ MonoBehaviour:
     _maxWaitingTime: 1.5
     minimumTimeInterval: 0.2
     builtInClickProtection: 1
-    userBreakPoints: []
+    userBreakPoints:
+    - TestBreakPoint1
+    - TestBreakPoint2
   viewStates: []
   viewPages: []
   uniqueViewElementTable:
@@ -74,3 +76,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 11542584b998b4713ade091af85feec0, type: 2}
   - {fileID: 11400000, guid: e72400ee016e94a7f82ace59bbe20339, type: 2}
   - {fileID: 11400000, guid: c30254d26ca2b424681c8f4372e64835, type: 2}
+  - {fileID: 11400000, guid: 847ca5d2629d644c281530cfbcae259e, type: 2}

@@ -9,7 +9,7 @@ using UnityEngine.EventSystems;
 using MacacaGames;
 using TMPro;
 
-public class UI_MessageBox : MonoBehaviour, IViewElementInjectable, IViewElementLifeCycle
+public class UI_MessageBox : MonoBehaviour, IViewElementSingleton, IViewElementLifeCycle
 {
     [SerializeField]
     Image image;
