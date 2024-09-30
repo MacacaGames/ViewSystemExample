@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4367037926359439951}
   - component: {fileID: 6753933616502103911}
+  - component: {fileID: 1496212642064687095}
   m_Layer: 0
   m_Name: CharacterStats
   m_TagString: Untagged
@@ -140,6 +141,20 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   DisableGameObjectOnComplete: 1
+--- !u!114 &1496212642064687095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8176007675847264036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c160cdbd05713425ea73b20814d124df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewElement: {fileID: 0}
+  OnlyManualMode: 0
 --- !u!1001 &2317172072876309973
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -148,6 +163,61 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4367037926359439951}
     m_Modifications:
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: inAnimation.fadeAnimation.duration
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: inAnimation.moveAnimation.duration
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.fadeAnimation.duration
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.moveAnimation.duration
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: inAnimation.moveAnimation.endValue.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.moveAnimation.endValue.x
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.moveAnimation.endValue.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: inAnimation.moveAnimation.startValue.x
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: inAnimation.moveAnimation.startValue.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.moveAnimation.startValue.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.moveAnimation.useViewSystemFrom
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8564093771249103802, guid: 3fcf787fe68264e08a4c339bb2f49e84,
         type: 3}
       propertyPath: m_Name
@@ -277,6 +347,56 @@ PrefabInstance:
       propertyPath: m_text
       value: ATK:20
       objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: inAnimation.fadeAnimation.duration
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: inAnimation.moveAnimation.duration
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.fadeAnimation.duration
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.moveAnimation.duration
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: inAnimation.moveAnimation.endValue.y
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.moveAnimation.endValue.y
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: inAnimation.moveAnimation.startValue.x
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: inAnimation.moveAnimation.startValue.y
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.moveAnimation.startValue.y
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.moveAnimation.useViewSystemFrom
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8564093771249103802, guid: 3fcf787fe68264e08a4c339bb2f49e84,
         type: 3}
       propertyPath: m_Name
@@ -405,6 +525,66 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: DEF:18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: inAnimation.fadeAnimation.duration
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: inAnimation.moveAnimation.duration
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.fadeAnimation.duration
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.moveAnimation.duration
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: inAnimation.moveAnimation.endValue.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.moveAnimation.endValue.x
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.moveAnimation.endValue.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: inAnimation.moveAnimation.startValue.x
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: inAnimation.moveAnimation.startValue.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.moveAnimation.startValue.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.moveAnimation.startValue.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411372107149890199, guid: 3fcf787fe68264e08a4c339bb2f49e84,
+        type: 3}
+      propertyPath: outAnimation.moveAnimation.useViewSystemFrom
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8564093771249103802, guid: 3fcf787fe68264e08a4c339bb2f49e84,
         type: 3}

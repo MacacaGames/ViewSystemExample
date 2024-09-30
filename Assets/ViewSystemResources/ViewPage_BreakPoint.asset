@@ -43,11 +43,11 @@ MonoBehaviour:
           rectTransformData:
             localScale: {x: 1, y: 1, z: 1}
             localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: 0, y: -285.6, z: 0}
+            anchoredPosition: {x: 0, y: 405.1, z: 0}
             pivot: {x: 0.5, y: 0.5}
             sizeDelta: {x: 590, y: 407}
-            anchorMin: {x: 0.5, y: 1}
-            anchorMax: {x: 0.5, y: 1}
+            anchorMin: {x: 0.5, y: 0.5}
+            anchorMax: {x: 0.5, y: 0.5}
           rectTransformFlag: -1
         breakPointViewElementTransforms: []
         TweenTime: 0.4
@@ -90,19 +90,6 @@ MonoBehaviour:
             anchorMax: {x: 0.5, y: 0.5}
           rectTransformFlag: -1
         breakPointViewElementTransforms:
-        - breakPointName: TestBreakPoint2
-          transformData:
-            parent: {fileID: 0}
-            parentPath: 
-            rectTransformData:
-              localScale: {x: 1, y: 1, z: 1}
-              localEulerAngles: {x: 0, y: 0, z: 0}
-              anchoredPosition: {x: 0, y: 0, z: 0}
-              pivot: {x: 0.5, y: 0.5}
-              sizeDelta: {x: 100, y: 500}
-              anchorMin: {x: 0.5, y: 0.5}
-              anchorMax: {x: 0.5, y: 0.5}
-            rectTransformFlag: -1
         - breakPointName: TestBreakPoint1
           transformData:
             parent: {fileID: 0}
@@ -113,6 +100,19 @@ MonoBehaviour:
               anchoredPosition: {x: 0, y: 0, z: 0}
               pivot: {x: 0.5, y: 0.5}
               sizeDelta: {x: 400, y: 100}
+              anchorMin: {x: 0.5, y: 0.5}
+              anchorMax: {x: 0.5, y: 0.5}
+            rectTransformFlag: -1
+        - breakPointName: TestBreakPoint2
+          transformData:
+            parent: {fileID: 0}
+            parentPath: 
+            rectTransformData:
+              localScale: {x: 1, y: 1, z: 1}
+              localEulerAngles: {x: 0, y: 0, z: 0}
+              anchoredPosition: {x: 0, y: 0, z: 0}
+              pivot: {x: 0.5, y: 0.5}
+              sizeDelta: {x: 100, y: 500}
               anchorMin: {x: 0.5, y: 0.5}
               anchorMax: {x: 0.5, y: 0.5}
             rectTransformFlag: -1

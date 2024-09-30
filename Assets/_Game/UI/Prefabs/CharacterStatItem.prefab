@@ -237,6 +237,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9188947953425711880}
+  - component: {fileID: 8840556987521217686}
+  - component: {fileID: 8411372107149890199}
+  - component: {fileID: 82654671333294671}
   m_Layer: 5
   m_Name: CharacterStatItem
   m_TagString: Untagged
@@ -265,3 +268,205 @@ RectTransform:
   m_AnchoredPosition: {x: -265.15408, y: 429.1184}
   m_SizeDelta: {x: 331.0752, y: 88.2368}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8840556987521217686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564093771249103802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3d0e97d20ea454ab7ba9babe7c84fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentViewPageItem:
+    Id: b98499fb
+    previewViewElement: {fileID: 0}
+    name: 
+    viewElementObject: {fileID: 0}
+    runtimeViewElement: {fileID: 0}
+    overrideDatas: []
+    eventDatas: []
+    runtimeParent: {fileID: 0}
+    parent: {fileID: 0}
+    parentPath: 
+    transformData:
+      localScale: {x: 1, y: 1, z: 1}
+      localEulerAngles: {x: 0, y: 0, z: 0}
+      anchoredPosition: {x: 0, y: 0, z: 0}
+      pivot: {x: 0.5, y: 0.5}
+      sizeDelta: {x: 100, y: 100}
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+    transformFlag: -1
+    defaultTransformDatas:
+      parent: {fileID: 0}
+      parentPath: 
+      rectTransformData:
+        localScale: {x: 1, y: 1, z: 1}
+        localEulerAngles: {x: 0, y: 0, z: 0}
+        anchoredPosition: {x: 0, y: 0, z: 0}
+        pivot: {x: 0.5, y: 0.5}
+        sizeDelta: {x: 100, y: 100}
+        anchorMin: {x: 0.5, y: 0.5}
+        anchorMax: {x: 0.5, y: 0.5}
+      rectTransformFlag: -1
+    breakPointViewElementTransforms: []
+    TweenTime: 0.4
+    easeType: 6
+    delayIn: 0
+    delayOut: 0
+    navigationDatas: []
+    excludePlatform: 0
+    sortingOrder: 0
+  currentViewPage:
+    name: 
+    viewPageItems: []
+    runtimePageRoot: {fileID: 0}
+    customPageTransitionWaitTime: 0.5
+    viewState: 
+    viewPageType: 0
+    viewPageTransitionTimingType: 0
+    canvasSortOrder: 0
+    ignoreAutoSorting: 0
+    edgeValues:
+      left: 0
+      bottom: 0
+      top: 0
+      right: 0
+      influence: 1
+      influenceLeft: 1
+      influenceBottom: 1
+      influenceTop: 1
+      influenceRight: 1
+    flipPadding: 0
+    useGlobalSafePadding: 1
+    IsNavigation: 0
+    _firstSelectSetting:
+      targetTransformPath: 
+      targetComponentType: 
+      targetPropertyName: 
+      viewPageItemId: 
+    navigationDatasForViewState: []
+  sortingOrder: 0
+  IsUnique: 0
+  parentViewElementGroup: {fileID: 0}
+  transition: 3
+  animatorTransitionType: 0
+  AnimationStateName_In: In
+  AnimationStateName_Out: Out
+  AnimationStateName_Loop: Loop
+  isSkipOutAnimation: 0
+  canvasInTime: 0.25
+  canvasOutTime: 0.25
+  canvasInEase: 6
+  canvasOutEase: 6
+  OnShowHandle:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLeaveHandle:
+    m_PersistentCalls:
+      m_Calls: []
+  DisableGameObjectOnComplete: 1
+--- !u!114 &8411372107149890199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564093771249103802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9e9c3ea7df1f4d9da2d8dd4ea696a89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideTarget: {fileID: 9188947953425711880}
+  inAnimation:
+    moveToggle: 1
+    moveAnimation:
+      duration: 1
+      delay: 0
+      useViewSystemFrom: 0
+      useViewSystemTo: 0
+      EaseStyle: 0
+      startValue: {x: -100, y: 0, z: 0}
+      endValue: {x: 0, y: 0, z: 0}
+      moveMode: 0
+    rotateToggle: 0
+    rotateAnimation:
+      duration: 0.4
+      delay: 0
+      useViewSystemFrom: 0
+      useViewSystemTo: 0
+      EaseStyle: 0
+      startValue: {x: 0, y: 0, z: 0}
+      endValue: {x: 0, y: 0, z: 0}
+    scaleToggle: 0
+    scaleAnimation:
+      duration: 0.4
+      delay: 0
+      useViewSystemFrom: 0
+      useViewSystemTo: 0
+      EaseStyle: 0
+      startValue: {x: 0, y: 0, z: 0}
+      endValue: {x: 1, y: 1, z: 1}
+    fadeToggle: 1
+    fadeAnimation:
+      duration: 0.4
+      delay: 0
+      useViewSystemFrom: 0
+      useViewSystemTo: 0
+      EaseStyle: 0
+      startValue: 0
+      endValue: 1
+  outAnimation:
+    moveToggle: 1
+    moveAnimation:
+      duration: 1
+      delay: 0
+      useViewSystemFrom: 1
+      useViewSystemTo: 0
+      EaseStyle: 0
+      startValue: {x: 0, y: 0, z: 0}
+      endValue: {x: -100, y: 0, z: 0}
+      moveMode: 0
+    rotateToggle: 0
+    rotateAnimation:
+      duration: 0.4
+      delay: 0
+      useViewSystemFrom: 0
+      useViewSystemTo: 0
+      EaseStyle: 0
+      startValue: {x: 0, y: 0, z: 0}
+      endValue: {x: 0, y: 0, z: 0}
+    scaleToggle: 0
+    scaleAnimation:
+      duration: 0.4
+      delay: 0
+      useViewSystemFrom: 0
+      useViewSystemTo: 0
+      EaseStyle: 0
+      startValue: {x: 0, y: 0, z: 0}
+      endValue: {x: 1, y: 1, z: 1}
+    fadeToggle: 1
+    fadeAnimation:
+      duration: 0.4
+      delay: 0
+      useViewSystemFrom: 0
+      useViewSystemTo: 0
+      EaseStyle: 0
+      startValue: 1
+      endValue: 0
+--- !u!225 &82654671333294671
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564093771249103802}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0

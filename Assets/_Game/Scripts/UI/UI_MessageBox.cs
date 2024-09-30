@@ -178,8 +178,11 @@ public class UI_MessageBox : MonoBehaviour, IViewElementSingleton, IViewElementL
             btnLinkers.Add(referenceLinker);
 
             var palette = ve.GetComponent<PaletteControl>();
-            int p = ((int)item.color) < btnPalette.Length ? ((int)item.color) : 0;
-            palette.SetPalette(btnPalette[p]);
+            if(palette != null)
+            {
+                int p = ((int)item.color) < btnPalette.Length ? ((int)item.color) : 0;
+                palette.SetPalette(btnPalette[p]);
+            }
 
             ve.OnShow();
         }

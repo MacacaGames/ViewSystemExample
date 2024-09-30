@@ -10,18 +10,18 @@ using UnityEngine.UI;
 public class UI_PageDropdown : ViewElementBehaviour
 {
     [SerializeField]TMP_Dropdown pageDropdown; 
+    [SerializeField] List<string> viewPageNames;
     private void Start()
     {
-        var viewPageNames = ViewController.Instance.viewPages.Select(x => x.Key).ToArray();
         SetDropdownOptions(viewPageNames);
         
         //register onValueChanged event
         pageDropdown.onValueChanged.AddListener(OnDropdownValueChanged);
     }
-    void SetDropdownOptions(string[] viewPageNames)
+    void SetDropdownOptions(List<string> viewPageNames)
     {
         pageDropdown.ClearOptions();
-        pageDropdown.AddOptions(viewPageNames.ToList());
+        pageDropdown.AddOptions(viewPageNames);
     }
     void OnDropdownValueChanged(int index)
     {

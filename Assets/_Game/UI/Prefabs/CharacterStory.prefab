@@ -326,6 +326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2000687550156315342}
   - component: {fileID: 2603881707936204402}
+  - component: {fileID: 6094198352689545913}
   - component: {fileID: -1399887296293267316}
   - component: {fileID: 8822041805072822081}
   - component: {fileID: 7532841575968572461}
@@ -443,7 +444,7 @@ MonoBehaviour:
   sortingOrder: 0
   IsUnique: 0
   parentViewElementGroup: {fileID: 0}
-  transition: 2
+  transition: 3
   animatorTransitionType: 0
   AnimationStateName_In: In
   AnimationStateName_Out: Out
@@ -460,6 +461,95 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   DisableGameObjectOnComplete: 1
+--- !u!114 &6094198352689545913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2164306399258560436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9e9c3ea7df1f4d9da2d8dd4ea696a89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideTarget: {fileID: 2000687550156315342}
+  inAnimation:
+    moveToggle: 1
+    moveAnimation:
+      duration: 0.4
+      delay: 0
+      useViewSystemFrom: 0
+      useViewSystemTo: 0
+      EaseStyle: 0
+      startValue: {x: 1000, y: -239.7, z: 0}
+      endValue: {x: 0, y: -239.7, z: 0}
+      moveMode: 0
+    rotateToggle: 0
+    rotateAnimation:
+      duration: 0.4
+      delay: 0
+      useViewSystemFrom: 0
+      useViewSystemTo: 0
+      EaseStyle: 0
+      startValue: {x: 0, y: 0, z: 0}
+      endValue: {x: 0, y: 0, z: 0}
+    scaleToggle: 0
+    scaleAnimation:
+      duration: 0.4
+      delay: 0
+      useViewSystemFrom: 0
+      useViewSystemTo: 0
+      EaseStyle: 0
+      startValue: {x: 0, y: 0, z: 0}
+      endValue: {x: 1, y: 1, z: 1}
+    fadeToggle: 0
+    fadeAnimation:
+      duration: 0.4
+      delay: 0
+      useViewSystemFrom: 0
+      useViewSystemTo: 0
+      EaseStyle: 0
+      startValue: 0
+      endValue: 1
+  outAnimation:
+    moveToggle: 1
+    moveAnimation:
+      duration: 0.4
+      delay: 0
+      useViewSystemFrom: 0
+      useViewSystemTo: 0
+      EaseStyle: 0
+      startValue: {x: 0, y: -239.7, z: 0}
+      endValue: {x: 1000, y: -239.7, z: 0}
+      moveMode: 0
+    rotateToggle: 0
+    rotateAnimation:
+      duration: 0.4
+      delay: 0
+      useViewSystemFrom: 0
+      useViewSystemTo: 0
+      EaseStyle: 0
+      startValue: {x: 0, y: 0, z: 0}
+      endValue: {x: 0, y: 0, z: 0}
+    scaleToggle: 0
+    scaleAnimation:
+      duration: 0.4
+      delay: 0
+      useViewSystemFrom: 0
+      useViewSystemTo: 0
+      EaseStyle: 0
+      startValue: {x: 0, y: 0, z: 0}
+      endValue: {x: 1, y: 1, z: 1}
+    fadeToggle: 0
+    fadeAnimation:
+      duration: 0.4
+      delay: 0
+      useViewSystemFrom: 0
+      useViewSystemTo: 0
+      EaseStyle: 0
+      startValue: 0
+      endValue: 1
 --- !u!225 &-1399887296293267316
 CanvasGroup:
   m_ObjectHideFlags: 0
