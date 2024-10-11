@@ -13,10 +13,62 @@ MonoBehaviour:
   m_Name: ViewPage_ViewInjectDictionaryInput
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 48, y: 928}
+    nodePosition: {x: 48, y: 896}
     viewPage:
       name: ViewInjectDictionaryInput
       viewPageItems:
+      - Id: 9b7229a0
+        previewViewElement: {fileID: 0}
+        name: 
+        viewElementObject: {fileID: 2480576520491095348, guid: 727ac5f22fe6e44e9be8a797cc3cac8c,
+          type: 3}
+        runtimeViewElement: {fileID: 0}
+        overrideDatas:
+        - targetTransformPath: Text
+          targetComponentType: TMPro.TextMeshProUGUI
+          targetPropertyName: m_text
+          Value:
+            IsShowRawContent: 0
+            s_Type: 5
+            ObjectReferenceValue: {fileID: 0}
+            StringValue: Since ViewElementInject is limited to mapping only one instance
+              per type by default, ViewInjectDictionary allows you to pass multiple
+              objects of the same type at once.\n\n In this case, keys are used to
+              match variable names instead of using class types.
+            ModelReflectValue: 
+        eventDatas: []
+        runtimeParent: {fileID: 0}
+        parent: {fileID: 0}
+        parentPath: 
+        transformData:
+          localScale: {x: 1, y: 1, z: 1}
+          localEulerAngles: {x: 0, y: 0, z: 0}
+          anchoredPosition: {x: 0, y: 0, z: 0}
+          pivot: {x: 0.5, y: 0.5}
+          sizeDelta: {x: 100, y: 100}
+          anchorMin: {x: 0.5, y: 0.5}
+          anchorMax: {x: 0.5, y: 0.5}
+        transformFlag: -1
+        defaultTransformDatas:
+          parent: {fileID: 0}
+          parentPath: 
+          rectTransformData:
+            localScale: {x: 1, y: 1, z: 1}
+            localEulerAngles: {x: 0, y: 0, z: 0}
+            anchoredPosition: {x: 0, y: -517.3, z: 0}
+            pivot: {x: 0.5, y: 0.5}
+            sizeDelta: {x: 900, y: 427.2}
+            anchorMin: {x: 0.5, y: 1}
+            anchorMax: {x: 0.5, y: 1}
+          rectTransformFlag: -1
+        breakPointViewElementTransforms: []
+        TweenTime: 0.4
+        easeType: 6
+        delayIn: 0
+        delayOut: 0
+        navigationDatas: []
+        excludePlatform: 0
+        sortingOrder: 0
       - Id: e21aefee
         previewViewElement: {fileID: 0}
         name: 
@@ -43,7 +95,7 @@ MonoBehaviour:
           rectTransformData:
             localScale: {x: 1, y: 1, z: 1}
             localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: 0, y: 0, z: 0}
+            anchoredPosition: {x: 0, y: -193.95, z: 0}
             pivot: {x: 0.5, y: 0.5}
             sizeDelta: {x: 800, y: 800}
             anchorMin: {x: 0.5, y: 0.5}

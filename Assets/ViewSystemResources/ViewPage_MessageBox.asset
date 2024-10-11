@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ViewPage_MessageBox
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 528, y: 96}
+    nodePosition: {x: -176, y: 560}
     viewPage:
       name: MessageBox
       viewPageItems:

@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2708930663728380836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6654379861922826683}
+  - component: {fileID: 4278724065709667405}
+  - component: {fileID: 2926908944997932308}
+  - component: {fileID: 8614437946619230100}
+  - component: {fileID: 3137954073955750062}
+  m_Layer: 5
+  m_Name: BG_DarkSky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6654379861922826683
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708930663728380836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2873.852, y: 2881.5156}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4278724065709667405
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708930663728380836}
+  m_CullTransparentMesh: 1
+--- !u!114 &2926908944997932308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708930663728380836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d7fe9384c949d2945a55adaf3c09680c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8614437946619230100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708930663728380836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3d0e97d20ea454ab7ba9babe7c84fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentViewPageItem:
+    Id: 3f06c933
+    previewViewElement: {fileID: 0}
+    name: 
+    viewElementObject: {fileID: 0}
+    runtimeViewElement: {fileID: 0}
+    overrideDatas: []
+    eventDatas: []
+    runtimeParent: {fileID: 0}
+    parent: {fileID: 0}
+    parentPath: 
+    transformData:
+      localScale: {x: 1, y: 1, z: 1}
+      localEulerAngles: {x: 0, y: 0, z: 0}
+      anchoredPosition: {x: 0, y: 0, z: 0}
+      pivot: {x: 0.5, y: 0.5}
+      sizeDelta: {x: 100, y: 100}
+      anchorMin: {x: 0.5, y: 0.5}
+      anchorMax: {x: 0.5, y: 0.5}
+    transformFlag: -1
+    defaultTransformDatas:
+      parent: {fileID: 0}
+      parentPath: 
+      rectTransformData:
+        localScale: {x: 1, y: 1, z: 1}
+        localEulerAngles: {x: 0, y: 0, z: 0}
+        anchoredPosition: {x: 0, y: 0, z: 0}
+        pivot: {x: 0.5, y: 0.5}
+        sizeDelta: {x: 100, y: 100}
+        anchorMin: {x: 0.5, y: 0.5}
+        anchorMax: {x: 0.5, y: 0.5}
+      rectTransformFlag: -1
+    breakPointViewElementTransforms: []
+    TweenTime: 0.4
+    easeType: 6
+    delayIn: 0
+    delayOut: 0
+    navigationDatas: []
+    excludePlatform: 0
+    sortingOrder: 0
+  currentViewPage:
+    name: 
+    viewPageItems: []
+    runtimePageRoot: {fileID: 0}
+    customPageTransitionWaitTime: 0.5
+    viewState: 
+    viewPageType: 0
+    viewPageTransitionTimingType: 0
+    canvasSortOrder: 0
+    ignoreAutoSorting: 0
+    edgeValues:
+      left: 0
+      bottom: 0
+      top: 0
+      right: 0
+      influence: 1
+      influenceLeft: 1
+      influenceBottom: 1
+      influenceTop: 1
+      influenceRight: 1
+    flipPadding: 0
+    useGlobalSafePadding: 1
+    IsNavigation: 0
+    _firstSelectSetting:
+      targetTransformPath: 
+      targetComponentType: 
+      targetPropertyName: 
+      viewPageItemId: 
+    navigationDatasForViewState: []
+  sortingOrder: 0
+  IsUnique: 0
+  parentViewElementGroup: {fileID: 0}
+  transition: 1
+  animatorTransitionType: 0
+  AnimationStateName_In: In
+  AnimationStateName_Out: Out
+  AnimationStateName_Loop: Loop
+  isSkipOutAnimation: 0
+  canvasInTime: 0.25
+  canvasOutTime: 0.25
+  canvasInEase: 6
+  canvasOutEase: 6
+  OnShowHandle:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLeaveHandle:
+    m_PersistentCalls:
+      m_Calls: []
+  DisableGameObjectOnComplete: 1
+--- !u!225 &3137954073955750062
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2708930663728380836}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0

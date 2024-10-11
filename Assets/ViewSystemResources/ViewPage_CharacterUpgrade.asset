@@ -13,10 +13,50 @@ MonoBehaviour:
   m_Name: ViewPage_CharacterUpgrade
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 512, y: 560}
+    nodePosition: {x: 800, y: 672}
     viewPage:
       name: CharacterUpgrade
       viewPageItems:
+      - Id: dd308023
+        previewViewElement: {fileID: 0}
+        name: 
+        viewElementObject: {fileID: 2708930663728380836, guid: 608829862c9994e88bb20c5fd8a95827,
+          type: 3}
+        runtimeViewElement: {fileID: 0}
+        overrideDatas: []
+        eventDatas: []
+        runtimeParent: {fileID: 0}
+        parent: {fileID: 0}
+        parentPath: 
+        transformData:
+          localScale: {x: 1, y: 1, z: 1}
+          localEulerAngles: {x: 0, y: 0, z: 0}
+          anchoredPosition: {x: 0, y: 0, z: 0}
+          pivot: {x: 0.5, y: 0.5}
+          sizeDelta: {x: 100, y: 100}
+          anchorMin: {x: 0.5, y: 0.5}
+          anchorMax: {x: 0.5, y: 0.5}
+        transformFlag: -1
+        defaultTransformDatas:
+          parent: {fileID: 0}
+          parentPath: 
+          rectTransformData:
+            localScale: {x: 1, y: 1, z: 1}
+            localEulerAngles: {x: 0, y: 0, z: 0}
+            anchoredPosition: {x: 0, y: 0, z: 0}
+            pivot: {x: 0.5, y: 0.5}
+            sizeDelta: {x: 2873.852, y: 2881.516}
+            anchorMin: {x: 0.5, y: 0.5}
+            anchorMax: {x: 0.5, y: 0.5}
+          rectTransformFlag: -1
+        breakPointViewElementTransforms: []
+        TweenTime: 0.4
+        easeType: 6
+        delayIn: 0
+        delayOut: 0
+        navigationDatas: []
+        excludePlatform: 0
+        sortingOrder: -3
       - Id: eaecc168
         previewViewElement: {fileID: 0}
         name: 
@@ -113,6 +153,16 @@ MonoBehaviour:
             ObjectReferenceValue: {fileID: 0}
             StringValue: CharacterStory
             ModelReflectValue: 
+        - targetTransformPath: root/Icon
+          targetComponentType: UnityEngine.UI.Image
+          targetPropertyName: m_Sprite
+          Value:
+            IsShowRawContent: 0
+            s_Type: 4
+            ObjectReferenceValue: {fileID: 21300000, guid: 1e39786f2defecd439bbb29206ab7443,
+              type: 3}
+            StringValue: Icon_Logout (UnityEngine.Sprite)
+            ModelReflectValue: 
         eventDatas: []
         runtimeParent: {fileID: 0}
         parent: {fileID: 0}
@@ -172,7 +222,7 @@ MonoBehaviour:
           rectTransformData:
             localScale: {x: 1, y: 1, z: 1}
             localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: -188.74, y: -100, z: 0}
+            anchoredPosition: {x: -188.74, y: -130, z: 0}
             pivot: {x: 0.5, y: 0.5}
             sizeDelta: {x: 300, y: 100}
             anchorMin: {x: 1, y: 1}

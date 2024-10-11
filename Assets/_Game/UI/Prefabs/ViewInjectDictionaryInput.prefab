@@ -206,7 +206,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -96}
-  m_SizeDelta: {x: 500, y: 94.9}
+  m_SizeDelta: {x: 855.3, y: 94.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7923714222493136612
 CanvasRenderer:
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Send input to a OverlayPage using ViewInjectDictionary
+  m_text: Send input to a Page using ViewInjectDictionary
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d24d319bd659b54ead89181ef556322, type: 2}
   m_sharedMaterial: {fileID: -8711711160007214357, guid: 1d24d319bd659b54ead89181ef556322,
@@ -264,15 +264,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28.7
-  m_fontSizeBase: 28.7
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -532,7 +532,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 800, y: 800}
+  m_SizeDelta: {x: 900, y: 800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6889136079397816693
 MonoBehaviour:
@@ -911,7 +911,7 @@ PrefabInstance:
     - target: {fileID: 3075076353257842822, guid: cc3675af9e2ef4cd58b758cec945a8dd,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 650
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 3075076353257842822, guid: cc3675af9e2ef4cd58b758cec945a8dd,
         type: 3}
@@ -1142,7 +1142,7 @@ PrefabInstance:
     - target: {fileID: 3075076353257842822, guid: cc3675af9e2ef4cd58b758cec945a8dd,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 650
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 3075076353257842822, guid: cc3675af9e2ef4cd58b758cec945a8dd,
         type: 3}
@@ -1373,7 +1373,7 @@ PrefabInstance:
     - target: {fileID: 3075076353257842822, guid: cc3675af9e2ef4cd58b758cec945a8dd,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 650
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 3075076353257842822, guid: cc3675af9e2ef4cd58b758cec945a8dd,
         type: 3}

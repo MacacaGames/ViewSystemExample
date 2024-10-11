@@ -123,6 +123,17 @@ PrefabInstance:
       propertyPath: transition
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7520417719725560189, guid: cec38db59a3614178bf2d470280cd563,
+        type: 3}
+      propertyPath: m_text
+      value: '-------------
+
+        -------------
+
+        -------------
+
+        -------------'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

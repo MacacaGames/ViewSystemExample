@@ -48,6 +48,9 @@ MonoBehaviour:
   - viewElementGameObject: {fileID: 3577643655495225662, guid: 7ec2acfd4c60f44d99a0a35af15f13d7,
       type: 3}
     type: UI_CurrencyBar
+  - viewElementGameObject: {fileID: 6830275487513608395, guid: df5c00b0e1a04409992d284e2513a576,
+      type: 3}
+    type: UI_PageDropdown
   - viewElementGameObject: {fileID: 3735135370969500442, guid: 925e49f8b78258b4fb524217277ed504,
       type: 3}
     type: UI_NavigationBar
@@ -77,3 +80,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e72400ee016e94a7f82ace59bbe20339, type: 2}
   - {fileID: 11400000, guid: c30254d26ca2b424681c8f4372e64835, type: 2}
   - {fileID: 11400000, guid: 847ca5d2629d644c281530cfbcae259e, type: 2}
+  - {fileID: 11400000, guid: a7c88ab9ae7ef418bab639c9a678f13a, type: 2}
+  - {fileID: 11400000, guid: c8ecaa5bbe19d44cbb8b5d67d6b01b72, type: 2}

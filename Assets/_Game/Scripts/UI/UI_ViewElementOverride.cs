@@ -6,7 +6,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MyUILogic : MonoBehaviour,IViewElementLifeCycle{
+public class UI_ViewElementOverride : MonoBehaviour,IViewElementLifeCycle{
     [OverrideProperty("Frame", typeof(UnityEngine.UI.Image), nameof(UnityEngine.UI.Image.sprite)) ]
     [SerializeField]
     Sprite someSprite;
@@ -18,13 +18,7 @@ public class MyUILogic : MonoBehaviour,IViewElementLifeCycle{
     ViewElement viewElement;
     [SerializeField]
     TMP_Text logText;
-    
-    [OverrideButtonEvent("Content/CustomEventButton")]
-    void CustomOverrideFunction(Component component )
-    {
-        var log = "trigger CustomOverrideFunction, this on click event is override via script";
-        Debug.Log(log);
-    }
+
     
     void Awake()
     {

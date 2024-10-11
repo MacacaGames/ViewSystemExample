@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ViewPage_CharacterStory
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 512, y: 672}
+    nodePosition: {x: 800, y: 784}
     viewPage:
       name: CharacterStory
       viewPageItems:
@@ -113,6 +113,16 @@ MonoBehaviour:
             ObjectReferenceValue: {fileID: 0}
             StringValue: CharacterUpgrade
             ModelReflectValue: 
+        - targetTransformPath: root/Icon
+          targetComponentType: UnityEngine.UI.Image
+          targetPropertyName: m_Sprite
+          Value:
+            IsShowRawContent: 0
+            s_Type: 4
+            ObjectReferenceValue: {fileID: 21300000, guid: 7889262af509e0e4589646a5553f148a,
+              type: 3}
+            StringValue: Icon_Logout (UnityEngine.Sprite)
+            ModelReflectValue: 
         eventDatas: []
         runtimeParent: {fileID: 0}
         parent: {fileID: 0}
@@ -172,7 +182,7 @@ MonoBehaviour:
           rectTransformData:
             localScale: {x: 1, y: 1, z: 1}
             localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: -188.74, y: -100, z: 0}
+            anchoredPosition: {x: -188.74, y: -130, z: 0}
             pivot: {x: 0.5, y: 0.5}
             sizeDelta: {x: 300, y: 100}
             anchorMin: {x: 1, y: 1}

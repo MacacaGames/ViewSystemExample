@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfc96180cc9464cce899301591c0e0ba, type: 3}
-  m_Name: ViewPage_AddCurrency
+  m_Name: ViewPage_BreakPointOverlayPage
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 800, y: 896}
+    nodePosition: {x: 448, y: 672}
     viewPage:
-      name: AddCurrency
+      name: BreakPointOverlayPage
       viewPageItems:
-      - Id: 45a2fc61
+      - Id: 42013eb4
         previewViewElement: {fileID: 0}
         name: 
-        viewElementObject: {fileID: 460600937566391871, guid: 75ec936d3939447f1af995d7cca6b614,
+        viewElementObject: {fileID: 2312344306213899656, guid: 4938f3d90ce924dc589fa892ae009e94,
           type: 3}
         runtimeViewElement: {fileID: 0}
         overrideDatas: []
@@ -45,22 +45,48 @@ MonoBehaviour:
             localEulerAngles: {x: 0, y: 0, z: 0}
             anchoredPosition: {x: 0, y: 0, z: 0}
             pivot: {x: 0.5, y: 0.5}
-            sizeDelta: {x: 200, y: 200}
+            sizeDelta: {x: 100, y: 100}
             anchorMin: {x: 0.5, y: 0.5}
             anchorMax: {x: 0.5, y: 0.5}
           rectTransformFlag: -1
-        breakPointViewElementTransforms: []
+        breakPointViewElementTransforms:
+        - breakPointName: TestBreakPoint1
+          transformData:
+            parent: {fileID: 0}
+            parentPath: 
+            rectTransformData:
+              localScale: {x: 1, y: 1, z: 1}
+              localEulerAngles: {x: 0, y: 0, z: 0}
+              anchoredPosition: {x: 0, y: 0, z: 0}
+              pivot: {x: 0.5, y: 0.5}
+              sizeDelta: {x: 400, y: 100}
+              anchorMin: {x: 0.5, y: 0.5}
+              anchorMax: {x: 0.5, y: 0.5}
+            rectTransformFlag: -1
+        - breakPointName: TestBreakPoint2
+          transformData:
+            parent: {fileID: 0}
+            parentPath: 
+            rectTransformData:
+              localScale: {x: 1, y: 1, z: 1}
+              localEulerAngles: {x: 0, y: 0, z: 0}
+              anchoredPosition: {x: 0, y: 0, z: 0}
+              pivot: {x: 0.5, y: 0.5}
+              sizeDelta: {x: 100, y: 500}
+              anchorMin: {x: 0.5, y: 0.5}
+              anchorMax: {x: 0.5, y: 0.5}
+            rectTransformFlag: -1
         TweenTime: 0.4
         easeType: 6
         delayIn: 0
         delayOut: 0
         navigationDatas: []
         excludePlatform: 0
-        sortingOrder: 0
-      - Id: 9c715d57
+        sortingOrder: 1
+      - Id: f60b1f77
         previewViewElement: {fileID: 0}
         name: 
-        viewElementObject: {fileID: 3577643655495225662, guid: 7ec2acfd4c60f44d99a0a35af15f13d7,
+        viewElementObject: {fileID: 8803245742322273625, guid: 683ce717ecd914cd09910e174cdf0222,
           type: 3}
         runtimeViewElement: {fileID: 0}
         overrideDatas: []
@@ -83,11 +109,11 @@ MonoBehaviour:
           rectTransformData:
             localScale: {x: 1, y: 1, z: 1}
             localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: -188.74, y: -130, z: 0}
+            anchoredPosition: {x: 0, y: 0, z: 0}
             pivot: {x: 0.5, y: 0.5}
-            sizeDelta: {x: 300, y: 100}
-            anchorMin: {x: 1, y: 1}
-            anchorMax: {x: 1, y: 1}
+            sizeDelta: {x: 800, y: 800}
+            anchorMin: {x: 0.5, y: 0.5}
+            anchorMax: {x: 0.5, y: 0.5}
           rectTransformFlag: -1
         breakPointViewElementTransforms: []
         TweenTime: 0.4
@@ -99,10 +125,10 @@ MonoBehaviour:
         sortingOrder: 0
       runtimePageRoot: {fileID: 0}
       customPageTransitionWaitTime: 0.5
-      viewState: UseCaseDemo
-      viewPageType: 0
+      viewState: 
+      viewPageType: 1
       viewPageTransitionTimingType: 0
-      canvasSortOrder: 0
+      canvasSortOrder: 1
       ignoreAutoSorting: 0
       edgeValues:
         left: 0

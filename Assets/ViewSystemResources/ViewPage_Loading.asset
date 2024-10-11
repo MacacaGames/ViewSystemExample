@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ViewPage_Loading
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 528, y: -16}
+    nodePosition: {x: -176, y: 464}
     viewPage:
       name: Loading
       viewPageItems:

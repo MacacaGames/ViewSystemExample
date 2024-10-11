@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ViewPage_MessageBubble
   m_EditorClassIdentifier: 
   data:
-    nodePosition: {x: 528, y: 240}
+    nodePosition: {x: -176, y: 672}
     viewPage:
       name: MessageBubble
       viewPageItems:

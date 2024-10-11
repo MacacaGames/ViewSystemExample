@@ -17,6 +17,57 @@ MonoBehaviour:
     viewPage:
       name: ViewElementTransition
       viewPageItems:
+      - Id: 9b7229a0
+        previewViewElement: {fileID: 0}
+        name: 
+        viewElementObject: {fileID: 2480576520491095348, guid: 727ac5f22fe6e44e9be8a797cc3cac8c,
+          type: 3}
+        runtimeViewElement: {fileID: 0}
+        overrideDatas:
+        - targetTransformPath: Text
+          targetComponentType: TMPro.TextMeshProUGUI
+          targetPropertyName: m_text
+          Value:
+            IsShowRawContent: 0
+            s_Type: 5
+            ObjectReferenceValue: {fileID: 0}
+            StringValue: These four ViewElements each demonstrate different ViewElement
+              Transitions. Using Transitions, you can quickly create show and leave
+              effects for ViewElements.
+            ModelReflectValue: 
+        eventDatas: []
+        runtimeParent: {fileID: 0}
+        parent: {fileID: 0}
+        parentPath: 
+        transformData:
+          localScale: {x: 1, y: 1, z: 1}
+          localEulerAngles: {x: 0, y: 0, z: 0}
+          anchoredPosition: {x: 0, y: 0, z: 0}
+          pivot: {x: 0.5, y: 0.5}
+          sizeDelta: {x: 100, y: 100}
+          anchorMin: {x: 0.5, y: 0.5}
+          anchorMax: {x: 0.5, y: 0.5}
+        transformFlag: -1
+        defaultTransformDatas:
+          parent: {fileID: 0}
+          parentPath: 
+          rectTransformData:
+            localScale: {x: 1, y: 1, z: 1}
+            localEulerAngles: {x: 0, y: 0, z: 0}
+            anchoredPosition: {x: 0, y: -448.1, z: 0}
+            pivot: {x: 0.5, y: 0.5}
+            sizeDelta: {x: 900, y: 258.1}
+            anchorMin: {x: 0.5, y: 1}
+            anchorMax: {x: 0.5, y: 1}
+          rectTransformFlag: -1
+        breakPointViewElementTransforms: []
+        TweenTime: 0.4
+        easeType: 6
+        delayIn: 0
+        delayOut: 0
+        navigationDatas: []
+        excludePlatform: 0
+        sortingOrder: 0
       - Id: 19a98b11
         previewViewElement: {fileID: 0}
         name: 
@@ -43,7 +94,7 @@ MonoBehaviour:
           rectTransformData:
             localScale: {x: 1, y: 1, z: 1}
             localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: -250, y: 400, z: 0}
+            anchoredPosition: {x: -250, y: 0, z: 0}
             pivot: {x: 0.5, y: 0.5}
             sizeDelta: {x: 400, y: 400}
             anchorMin: {x: 0.5, y: 0.5}
@@ -83,7 +134,7 @@ MonoBehaviour:
           rectTransformData:
             localScale: {x: 1, y: 1, z: 1}
             localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: 250, y: 400, z: 0}
+            anchoredPosition: {x: 250, y: 0, z: 0}
             pivot: {x: 0.5, y: 0.5}
             sizeDelta: {x: 400, y: 400}
             anchorMin: {x: 0.5, y: 0.5}
@@ -123,7 +174,7 @@ MonoBehaviour:
           rectTransformData:
             localScale: {x: 1, y: 1, z: 1}
             localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: -250, y: -400, z: 0}
+            anchoredPosition: {x: -250, y: -600, z: 0}
             pivot: {x: 0.5, y: 0.5}
             sizeDelta: {x: 400, y: 400}
             anchorMin: {x: 0.5, y: 0.5}
@@ -163,7 +214,7 @@ MonoBehaviour:
           rectTransformData:
             localScale: {x: 1, y: 1, z: 1}
             localEulerAngles: {x: 0, y: 0, z: 0}
-            anchoredPosition: {x: 250, y: -400, z: 0}
+            anchoredPosition: {x: 250, y: -600, z: 0}
             pivot: {x: 0.5, y: 0.5}
             sizeDelta: {x: 400, y: 400}
             anchorMin: {x: 0.5, y: 0.5}

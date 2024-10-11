@@ -1,54 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using MacacaGames.GameSystem;
+﻿using UnityEngine;
 using MacacaGames.ViewSystem;
-using System.Threading.Tasks;
-using UnityEngine.Rendering;
 
 public class UIManager : MonoBehaviour
 {
-    [Inject]
-    MainGamePlayData gamePlaydata;
-
-    [ViewSystemEvent]
-    public void OnPlayButtonClick(Component c)
-    {
-        if (ViewController.Instance.IsPageTransition)
-        {
-            return;
-        }
-        ApplicationController.Instance.StartGame();
-    }
-
-    [ViewSystemEvent]
-    public void OnExitGameButtonClick(Component c)
-    {
-        gamePlaydata.gamePlayController.QuitGamePlay();
-    }
-
-    [ViewSystemEvent]
-    public void OnGameResultClick(Component c)
-    {
-        gamePlaydata.ResultComplete();
-    }
-
-    [ViewSystemEvent]
-    public void OnGameWinBtnClick(Component c)
-    {
-        gamePlaydata.gamePlayController.SuccessGamePlay();
-    }
-    
-    [ViewSystemEvent]
-    public void OnGameLoseBtnClick(Component c)
-    {
-        gamePlaydata.gamePlayController.FailedGamePlay();
-    }
-    
     [ViewSystemEvent("OverridePropertyPage")]
     public void OnOverridePropertyPageBtnPressed(Component c)
     {
-        var messageBoxCoroutine = UI_MessageBox.Show("Title", "call a function with ViewSystemEvent attribute in UIManager",
+        var messageBoxCoroutine = UI_MessageBox.Show("Title", "By editing the event override for this button in the View System Visual Editor, the button's onClick now calls OnOverridePropertyPageBtnPressed() in the UIManager.cs",
             new UI_MessageBox.BtnWrapper[]{
                 new UI_MessageBox.BtnWrapper{
                     text = "Confirm",
@@ -59,4 +17,12 @@ public class UIManager : MonoBehaviour
             }
         );
     }
+    [ViewSystemEvent("PageChange")]
+    public void GoToCharacterUpgradePage(Component c)
+    {
+        ViewController.FullPageChanger()
+            .SetPage("CharacterUpgrade")
+            .Show();
+    }
+
 }

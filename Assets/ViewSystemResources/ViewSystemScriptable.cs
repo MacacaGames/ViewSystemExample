@@ -5,6 +5,13 @@ namespace MacacaGames.ViewSystem
 	public struct ViewSystemScriptable
 	{
 
+		public struct BreakPoints
+		{
+		    public const string  TestBreakPoint1 = "TestBreakPoint1";
+
+		    public const string  TestBreakPoint2 = "TestBreakPoint2";
+
+		}
 		public struct ViewPages
 		{
 		    public const string  Welcome_P1 = "Welcome_P1";
@@ -27,7 +34,7 @@ namespace MacacaGames.ViewSystem
 
 		    public const string  ViewElementTransition = "ViewElementTransition";
 
-		    public const string  OverridePropertyViaScript = "OverridePropertyViaScript";
+		    public const string  ViewElementOverride = "ViewElementOverride";
 
 		    public const string  CharacterUpgrade = "CharacterUpgrade";
 
@@ -40,6 +47,14 @@ namespace MacacaGames.ViewSystem
 		    public const string  ViewInjectDictionaryInput = "ViewInjectDictionaryInput";
 
 		    public const string  ViewInjectDictionaryOutput = "ViewInjectDictionaryOutput";
+
+		    public const string  AddCurrency = "AddCurrency";
+
+		    public const string  BreakPoint = "BreakPoint";
+
+		    public const string  Lobby = "Lobby";
+
+		    public const string  BreakPointOverlayPage = "BreakPointOverlayPage";
 
 		}
 		public struct ViewStates
