@@ -57,7 +57,7 @@ MonoBehaviour:
             localEulerAngles: {x: 0, y: 0, z: 0}
             anchoredPosition: {x: 0, y: -448.1, z: 0}
             pivot: {x: 0.5, y: 0.5}
-            sizeDelta: {x: 900, y: 269.1}
+            sizeDelta: {x: 900, y: 364.5}
             anchorMin: {x: 0.5, y: 1}
             anchorMax: {x: 0.5, y: 1}
           rectTransformFlag: -1
