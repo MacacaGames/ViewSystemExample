@@ -19,10 +19,10 @@ public class MainGamePlayData : ScriptableObjectGamePlayData
 
     public override async void OnEnterLobby()
     {
-        ViewController
-            .FullPageChanger()
-            .SetPage(ViewSystemScriptable.ViewPages.Welcome_P1)
-            .Show();
+        // ViewController
+        //     .FullPageChanger()
+        //     .SetPage(ViewSystemScriptable.ViewPages.Welcome_P1)
+        //     .Show();
     }
 
     public override void OnGameValueReset()
@@ -32,10 +32,10 @@ public class MainGamePlayData : ScriptableObjectGamePlayData
 
     public override async Task OnEnterGame()
     {
-        ViewController
-            .FullPageChanger()
-            .SetPage(ViewSystemScriptable.ViewPages.Play)
-            .Show(true);
+        // ViewController
+        //     .FullPageChanger()
+        //     .SetPage(ViewSystemScriptable.ViewPages.Play)
+        //     .Show(true);
     }
 
     public override IEnumerator GamePlay()
@@ -71,10 +71,10 @@ public class MainGamePlayData : ScriptableObjectGamePlayData
             .SetPage(ViewSystemScriptable.ViewPages.Loading)
             .Show();
 
-        ViewController
-            .FullPageChanger()
-            .SetPage(ViewSystemScriptable.ViewPages.Result)
-            .Show(true);
+        // ViewController
+        //     .FullPageChanger()
+        //     .SetPage(ViewSystemScriptable.ViewPages.Result)
+        //     .Show(true);
 
         //Rayark.Mast.Coroutine.Sleep(1f);
         await Task.Delay(1000);
@@ -85,13 +85,13 @@ public class MainGamePlayData : ScriptableObjectGamePlayData
             .Leave();
 
         var gameStatus = "";
-        var message = ViewController.Instance.GetViewPageElementByName(ViewSystemScriptable.ViewPages.Result, "Message");
-        var text = message.GetComponentInChildren<TextMeshProUGUI>();
+        // var message = ViewController.Instance.GetViewPageElementByName(ViewSystemScriptable.ViewPages.Result, "Message");
+        // var text = message.GetComponentInChildren<TextMeshProUGUI>();
 
         gameStatus += "isFailed: " + gamePlayController.isFailed.ToString() + "\n";
 
 
-        text.text = gameStatus;
+        // text.text = gameStatus;
         await TaskUtils.WaitUntil(() => resultEnd);
     }
 
