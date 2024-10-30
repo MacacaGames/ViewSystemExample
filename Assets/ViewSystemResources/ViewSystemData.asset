@@ -51,23 +51,12 @@ MonoBehaviour:
   - viewElementGameObject: {fileID: 6830275487513608395, guid: df5c00b0e1a04409992d284e2513a576,
       type: 3}
     type: UI_PageDropdown
-  - viewElementGameObject: {fileID: 3735135370969500442, guid: 925e49f8b78258b4fb524217277ed504,
-      type: 3}
-    type: UI_NavigationBar
   viewStateNodeSaveDatas:
-  - {fileID: 11400000, guid: 294b6cd807d5a485f8d40e11a8c5dd2d, type: 2}
-  - {fileID: 11400000, guid: fcdd19134f26847bb9ce70f06fb6a75a, type: 2}
-  - {fileID: 11400000, guid: 34f2a0def77d04ca1b2cd4e400421938, type: 2}
   - {fileID: 11400000, guid: 013b733c8492e4bc3aa6084af134e87a, type: 2}
   - {fileID: 11400000, guid: 5670a614aa07447b1a3b521bf6e9b8a1, type: 2}
   viewPagesNodeSaveDatas:
-  - {fileID: 11400000, guid: 86c4e6f6f4a244f768bc21c049e74cb8, type: 2}
   - {fileID: 11400000, guid: 46e761f69abe9489d87153fc9f862c99, type: 2}
-  - {fileID: 11400000, guid: 4e98f0e8172694cbda57710990f5ac72, type: 2}
   - {fileID: 11400000, guid: ff32faaae9bdc414caa6be6b22e1b94b, type: 2}
-  - {fileID: 11400000, guid: b260be79420594a4a9e7f52931827168, type: 2}
-  - {fileID: 11400000, guid: 9ddcfceca88a74732ba5cd62e2060e4c, type: 2}
-  - {fileID: 11400000, guid: b5162566d3cd34a40823bfc363ca64a8, type: 2}
   - {fileID: 11400000, guid: d2ed617ab074f46228e6a08301f6e797, type: 2}
   - {fileID: 11400000, guid: c43f149ca67f94a66bf6d6c1172281b0, type: 2}
   - {fileID: 11400000, guid: e350847492bb3414ab431022e99c4f84, type: 2}
